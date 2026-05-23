@@ -1,0 +1,9 @@
+streamlit
+requests
+python-dotenv
+langchain
+langchain-community
+faiss-cpu
+sentence-transformers
+pdfplumber
+PyPDF2
