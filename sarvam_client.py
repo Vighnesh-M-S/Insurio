@@ -70,7 +70,7 @@ def get_llm_response(
                 "api-subscription-key": os.getenv("SARVAM_API_KEY"),
                 "Content-Type": "application/json",
             },
-            json={"model": "sarvam-m", "messages": messages},
+            json={"model": "sarvam-30b", "messages": messages},
             timeout=60,
         )
         response.raise_for_status()

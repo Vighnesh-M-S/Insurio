@@ -7,7 +7,7 @@ A conversational voice agent for insurance sales, built with Sarvam AI APIs, Lan
 | Component | Technology |
 |---|---|
 | Speech-to-Text | Sarvam STT — `saarika:v2.5` |
-| LLM | Sarvam LLM — `sarvam-m` |
+| LLM | Sarvam LLM — `sarvam-30b` |
 | Text-to-Speech | Sarvam TTS — `bulbul:v3` |
 | Vector Store | FAISS + `sentence-transformers/all-MiniLM-L6-v2` |
 | RAG Framework | LangChain + LangChain Community |
